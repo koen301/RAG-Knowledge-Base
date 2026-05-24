@@ -1,6 +1,7 @@
 # AI Knowledge Assistant - 个人知识库助手
 
 基于 LangChain + RAG + LLM 的个人知识库问答助手，支持多轮对话、文档上传与智能检索。
+> 另有更好的交互体验 **[TypeScript 全栈版本](https://github.com/koen301/AI-Knowledge-Assistant-ts)**
 
 ## 项目亮点
 
@@ -8,14 +9,14 @@
 - **多轮对话记忆**：自动维护对话上下文，支持连续追问
 - **多文档支持**：支持 PDF、TXT、MD 等格式文档上传
 - **模块化架构**：Loader → Splitter → Embedding → VectorStore → Retriever → Chain，清晰可扩展
-- **一键启动**：Gradio Web 界面，5 分钟跑起来
+- **一键启动**：Gradio Web 界面，无需配置即可运行
 
 ## 快速开始
 
 ### 1. 克隆项目 & 安装依赖
 
 ```bash
-git clone https://github.com/yourname/ai-knowledge-assistant.git
+git clone https://github.com/koen301/ai-knowledge-assistant.git
 cd ai-knowledge-assistant
 pip install -r requirements.txt
 ```
@@ -29,7 +30,7 @@ cp .env.example .env
 
 ### 3. 准备文档
 
-将 PDF/TXT 文件放入 `data/` 目录，或直接通过 Web 界面上传。
+将 PDF/TXT/MD 等格式的文档放入 `data/` 目录，或直接通过 Web 界面上传。
 
 ### 4. 启动
 
