@@ -1,5 +1,5 @@
 """
-AI Knowledge Assistant - Web 界面
+RAG-Knowledge-Base - Web 界面
 基于 Gradio 的个人知识库问答助手
 """
 import os
@@ -106,11 +106,11 @@ def list_docs():
     return "\n".join([f"📄 {os.path.basename(d)}" for d in docs])
 
 # ========== Gradio 界面 ==========
-with gr.Blocks(title="AI Knowledge Assistant") as demo:
+with gr.Blocks(title="RAG-Knowledge-Base") as demo:
     gr.Markdown("""
-    # 🤖 AI 个人知识库助手
-
-    基于 **LangChain + RAG + LLM** 的智能问答系统。
+    # 🤖 RAG 智能知识库检索系统
+    
+    基于 **LangChain + ChromaDB + OpenAI Embedding** 的 RAG 检索增强生成系统。
     """)
 
     with gr.Row():

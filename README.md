@@ -1,7 +1,6 @@
-# AI Knowledge Assistant - 个人知识库助手
+# RAG Knowledge Base — 智能知识库检索系统
 
-基于 LangChain + RAG + LLM 的个人知识库问答助手，支持多轮对话、文档上传与智能检索。
-> 另有更好的交互体验 **[TypeScript 全栈版本](https://github.com/koen301/AI-Knowledge-Assistant-ts)**
+基于 **LangChain + ChromaDB + OpenAI Embedding** 的 RAG 检索增强生成系统，支持多轮对话、文档上传与智能检索。
 
 ## 核心特点
 
@@ -16,8 +15,8 @@
 ### 1. 克隆项目 & 安装依赖
 
 ```bash
-git clone https://github.com/koen301/ai-knowledge-assistant.git
-cd ai-knowledge-assistant
+git clone https://github.com/koen301/RAG-Knowledge-Base.git
+cd RAG-Knowledge-Base
 pip install -r requirements.txt
 ```
 
