@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 *.so
 
+# 依赖目录
+node_modules/
+
 # 环境
 .env
 venv/
